@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "landing-cta-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/landingCta/LandingCtaWebPart.js",
+          "manifest": "./src/webparts/landingCta/LandingCtaWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "LandingCtaWebPartStrings": "lib/webparts/landingCta/loc/{locale}.js"
+  }
+}
